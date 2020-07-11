@@ -4,187 +4,181 @@
     <title>Dunder Mifflin</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
-<header  style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(bg.jpg); background-size: cover;
-background-position: center;
-background-attachment: fixed;
-height: 50vh;
-margin-top: -10px;
-">
-    <h1 style="text-align: center;padding-top: 150px; font-weight: 200;"><blockquote>"That's What She Said." - Micheal Scott</blockquote></h1>
+<header >
+    <h1 class="top"><blockquote>"That's What She Said." - Micheal Scott</blockquote></h1>
 </header>
-<body style="padding-top: 70px ;background-color:rgb(15, 7, 34); color: whitesmoke;">
-<div class="container">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
-        <img src="dunder4.png" alt="logo">
-        <!-- <i class='fas fa-gamepad navbar-brand' style='font-size:48px;color:#FFFFFF'></i> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class=" collapse navbar-collapse " id="collapsibleNavbar">
-            <form class="form-inline collapse navbar-collapse" action="" >
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-primary" type="submit"><span class="fa fa-search"></span>Search</button>
-            </form>
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Info</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
-
-<div class="container">
-    <h1 class="text-center" style="font-weight:400 ; padding-top: 3.5%;">DUNDER MIFFLIN</h1>
-    <h6 class="text-center" style="font-weight:100 ;" >P A P E R &nbsp; C O M P A N Y</h6>
-    <hr style="background-color: rgba(255, 255, 255, 0.288);">
-    <p class="text-justify" style="font-size: 20px;font-weight: 200;">
-        For years, Dunder Mifflin was a paper company that was unable to compete with modern chains such as Staples and Office Depot. The company still used calls rather than the Internet, causing most customers to leave for the nation-wide chains, and was unable to adapt to an increasingly paperless world. Ryan Howard, a new employee of Scranton Branch, predicted the company would be obsolete by 2017. In 2007, Ryan Howard became Vice President of Sales and began a massive restructuring of the entire company, including a new website that would help make sales more efficient. However, his website was a failure (due to an ill-advised social networking feature) and he was later arrested for fraud when it was discovered that he was double-counting sales transactions into the website that were already made by salesmen over the phone.
-    </p><br>
-</div>
-<div style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(employees.png); background-size: cover;">
-    <h5 class="text-center " style="height: 30px;;background-color:rgba(46, 116, 247, 0.329); font-weight: 100;">Info</h5>
-    <img src="xxx.jpg" style="height: 200px;width: 300px; margin-top: 5%;margin-bottom: 5%" class="rounded mx-auto d-block">
-    <div class="container" style="text-align: center; font-size: 20px;">
-        <table style="width:100%;margin-left: 5%;font-size: 20px;">
-            <tr>
-              <td>Type</td>
-              <td>-</td>
-              <td>Paper Company</td>
-            </tr>
-            <tr>
-                <td>Parent Company</td>
-                <td>-</td>
-                <td>Sabre</td>
-            </tr>
-            <tr>
-                <td>Headquarters</td>
-                <td>-</td>
-                <td>New York, NY</td>
-            </tr>
-            <tr>
-                <td>Founded</td>
-                <td>-</td>
-                <td>1949</td>
-            </tr>
-            <tr>
-                <td>CEO</td>
-                <td>-</td>
-                <td>David Wallace</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>Robert California (formerly)</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>Jo Bennett (formerly)</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>Alan Brand (formerly)</td>
-            </tr>
-            <tr>
-                <td>Branch Managers</td>
-                <td>-</td>
-                <td>Dwight Schrute (Scranton)</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>Karen Filippelli (Utica)</td>
-            </tr>
-        </table>
-        <hr>
-        <hr>
+<body class="main">
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+            <img src="dunder4.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse " id="collapsibleNavbar">
+                <form class="form-inline collapse navbar-collapse" action="" >
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="submit"><span class="fa fa-search"></span>Search</button>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-</div>
-<hr>
-<hr>
-<div class="container-fluid" style="font-weight: 200;">
-    <div class="row">
-        
-        <div class="col-lg-4 text-justify">
-            <h3 class="text-center"style="font-weight: 200;">Contact Us</h3>
-            <!-- <p style="margin-left: 25px;" class="font-weight-bold">Some interesting links...</p> -->
-            <ul>
-                <li>Contact No : +1-202-555-0175 / +1-202-555-0104</li>
-                <li>E-mail Id : <a class="text-primary" href=""> techsupport@dundermifflin.com</a></li>
-                <li>Our <a class="text-primary" href="">LinkedIn</a></li>
-                <li>Our <a class="text-primary" href="">Facebook</a></li>
-                <li>Our <a class="text-primary" href="">Twitter</a></li>
-                <li>Our Official Merch Store : <a class="text-primary" href="">www.dundermifflin-merch.com</a></li>
-            </ul>
-        </div>
 
-        <div class="col-lg-4">
-            <h3 class="text-center"style="font-weight: 200;">About Us</h3>
-            <p class="text-center">"Dunder Mifflin Incorporated provides its customers quality office and information technology products, furniture,
-                printing gay values and the expertise required for making informed buying decisions.
-                We provide our products and services with a dedication to the highest degree of integrity and quality of customer satisfaction,
-                developing long-term professional relationships with employees that develop gay pride,
-                creating a stable working environment and company spirit."
-            </p>
-            <hr style="background-color: rgba(255, 255, 255, 0.377);">
-            <h5 style="text-align: center; margin-bottom: 15px;font-weight: 200;">Our Industry Leading Template</h5>
-            <img src="dmtemp.jpg" style="height: 50%;width: 40%; margin-bottom: 20px;" class="rounded mx-auto d-block">
+    <div class="container">
+        <h1 class="text-center second">DUNDER MIFFLIN</h1>
+        <h6 class="text-center h6" >P A P E R &nbsp; C O M P A N Y</h6>
+        <hr style="background-color: rgba(255, 255, 255, 0.288);">
+        <p class="text-justify n1">
+            For years, Dunder Mifflin was a paper company that was unable to compete with modern chains such as Staples and Office Depot. The company still used calls rather than the Internet, causing most customers to leave for the nation-wide chains, and was unable to adapt to an increasingly paperless world. Ryan Howard, a new employee of Scranton Branch, predicted the company would be obsolete by 2017. In 2007, Ryan Howard became Vice President of Sales and began a massive restructuring of the entire company, including a new website that would help make sales more efficient. However, his website was a failure (due to an ill-advised social networking feature) and he was later arrested for fraud when it was discovered that he was double-counting sales transactions into the website that were already made by salesmen over the phone.
+        </p><br>
+    </div>
+    <div class="info">
+        <h5 class="text-center h5">Info</h5>
+        <img src="xxx.jpg" class="rounded mx-auto d-block logo">
+        <div class="container info-container">
+            <table>
+                <tr>
+                <td>Type</td>
+                <td>-</td>
+                <td>Paper Company</td>
+                </tr>
+                <tr>
+                    <td>Parent Company</td>
+                    <td>-</td>
+                    <td>Sabre</td>
+                </tr>
+                <tr>
+                    <td>Headquarters</td>
+                    <td>-</td>
+                    <td>New York, NY</td>
+                </tr>
+                <tr>
+                    <td>Founded</td>
+                    <td>-</td>
+                    <td>1949</td>
+                </tr>
+                <tr>
+                    <td>CEO</td>
+                    <td>-</td>
+                    <td>David Wallace</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Robert California (formerly)</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Jo Bennett (formerly)</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Alan Brand (formerly)</td>
+                </tr>
+                <tr>
+                    <td>Branch Managers</td>
+                    <td>-</td>
+                    <td>Dwight Schrute (Scranton)</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Karen Filippelli (Utica)</td>
+                </tr>
+            </table>
+            <hr>
+            <hr>
         </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="container-fluid" style="font-weight: 200;">
+        <div class="row">
+            
+            <div class="col-lg-4 text-justify">
+                <h3 class="text-center"style="font-weight: 200;">Contact Us</h3>
+                <ul>
+                    <li>Contact No : +1-202-555-0175 / +1-202-555-0104</li>
+                    <li>E-mail Id : <a class="text-primary" href=""> techsupport@dundermifflin.com</a></li>
+                    <li>Our <a class="text-primary" href="">LinkedIn</a></li>
+                    <li>Our <a class="text-primary" href="">Facebook</a></li>
+                    <li>Our <a class="text-primary" href="">Twitter</a></li>
+                    <li>Our Official Merch Store : <a class="text-primary" href="">www.dundermifflin-merch.com</a></li>
+                </ul>
+            </div>
 
-        <div class="col-lg-4">
-            <h3 class="text-center"style="font-weight: 200;">Login Form</h3>
-            <form action="#" class="was-validated">
-            <div class="form-group">
-                <label for="uname">Username:</label>
-                <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback">Please fill the username.</div>
+            <div class="col-lg-4">
+                <h3 class="text-center"style="font-weight: 200;">About Us</h3>
+                <p class="text-center">"Dunder Mifflin Incorporated provides its customers quality office and information technology products, furniture,
+                    printing gay values and the expertise required for making informed buying decisions.
+                    We provide our products and services with a dedication to the highest degree of integrity and quality of customer satisfaction,
+                    developing long-term professional relationships with employees that develop gay pride,
+                    creating a stable working environment and company spirit."
+                </p>
+                <hr class="hr">
+                <h5 class="h5-1">Our Industry Leading Template</h5>
+                <img src="dmtemp.jpg" class="rounded mx-auto d-block temp">
             </div>
-            <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback">Please fill out this field.</div>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                <input class="form-check-input" type="checkbox"> Remember me
-                </label>
-            </div>
-                <button type="submit" class="btn btn-primary btn-md btn-block">Login</button>
-            </form>
-            <div class="container-fluid">              
-                <p class="text-secondary text-center">Or Login with</p>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <button type="submit" style="border: 0px;outline: 0px;background:transparent ;margin-left: -50px;"><img src="google_sign_up.png" alt=""></button>
-                        <button type="submit" style="border: 0px;outline: 0px;background:transparent ;margin-left: -50px;margin-top: -60px;" ><img src="login-with-facebook-button-png-10.png" alt="fb-login-img"></button>
+
+            <div class="col-lg-4">
+                <h3 class="text-center"style="font-weight: 200;">Login Form</h3>
+                <form action="#" class="was-validated">
+                <div class="form-group">
+                    <label for="uname">Username:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill the username.</div>
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                    </label>
+                </div>
+                    <button type="submit" class="btn btn-primary btn-md btn-block">Login</button>
+                </form>
+                <div class="container-fluid">              
+                    <p class="text-secondary text-center">Or Login with</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <button type="submit" style="border: 0px;outline: 0px;background:transparent ;margin-left: -50px;"><img src="google_sign_up.png" alt=""></button>
+                            <button type="submit" style="border: 0px;outline: 0px;background:transparent ;margin-left: -50px;margin-top: -60px;" ><img src="login-with-facebook-button-png-10.png" alt="fb-login-img"></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 </body>
 </html>
